@@ -88,3 +88,5 @@ app.delete('/api/movies/:id', (req, res) => {
         res.status(500).json({ error: err });
     });
 });
+
+module.exports = app;
